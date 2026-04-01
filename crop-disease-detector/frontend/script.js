@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-const API = 'http://localhost:5000';
+const API = 'https://crop-disease-detector-2lxh.onrender.com';
 let selectedFile = null;
 let currentLang  = 'en';   // 'en' | 'mr'
 let lastData     = null;   // store last API response for re-render on lang switch
